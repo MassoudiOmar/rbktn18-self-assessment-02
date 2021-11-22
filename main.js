@@ -44,10 +44,15 @@ function map(array, func) {
 // var strArr = ['hello', 'world', 'whirled', 'peas'];
 // uppercaseAll(strArr); ==> [ 'HELLO', 'WORLD', 'WHIRLED', 'PEAS' ]
 
-function uppercaseAll(arrayOfStrings) {
-  // TODO: your code here
 
+ function uppercasecall(arrayOfStrings){
+return each(arrayOfStrings, function(element,i){
+acc.push(element.toUpperCase())
+});
+return acc 
 }
+
+
 
 //=============================================================================
 /*                                  Q2                                       */
@@ -104,10 +109,15 @@ function halveAll(numbers) {
 // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129];
 // Note: please write one or two lines here describing your solution.
 
-function values(obj) {
-  // your code is here
 
+function values(obj){
+return each(obj,function(element,i){
+return acc.push(i)
+})
 }
+
+
+
 
 
 //Good Luck :))
